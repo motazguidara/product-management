@@ -49,7 +49,9 @@ public class Categorie
 	public String toString() {
 		return "Categorie [id=" + id + ", code=" + code + ", libelle=" + libelle + "]";
 	}
-
+	  public Categorie(Long id) {
+	        this.id = id;
+	    }	
 	public Categorie() {}
 
 	public Long getId() {
